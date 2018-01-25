@@ -12,6 +12,7 @@
           <mu-tab value="ner" title="NER" class="tab-button"/>
           <mu-tab value="summary" title="Summary" class="tab-button"/>
           <mu-tab value="parser" title="Depparser" class="tab-button"/>
+          <mu-tab value="dialog" title="Dialog" class="tab-button"/>
         </mu-tabs>
       </div>
     </div>
@@ -70,13 +71,13 @@ export default {
 
 .nav {
   display: inline-block;
-  width: calc(100% - 150px);
+  width: 80%;
   margin: 0 auto;
 }
 
 .tab {
   margin: 0 auto;
-  width: 90%;
+  width: 80%;
   background-color: rgba(0, 0, 0, 0);
 }
 

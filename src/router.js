@@ -6,6 +6,7 @@ import Ner from './pages/ner'
 import Tag from './pages/tag'
 import Summary from './pages/summary'
 import Parser from './pages/parser'
+import Dialog from './pages/dialog'
 
 Vue.use(Router)
 
@@ -43,6 +44,11 @@ export default new Router({
         path: '/parser',
         name: 'parser',
         component: Parser
+      },
+      {
+        path: '/dialog',
+        name: 'dialog',
+        component: Dialog
       }
     ]
   }]
