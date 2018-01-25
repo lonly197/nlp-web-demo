@@ -1,7 +1,7 @@
 <template>
   <div>
     <mu-card class="card">
-      <mu-card-title title="Automatic summary function comparison comparison" subTitle="" />
+      <mu-card-title title="Automatic summary function comparison" subTitle="" />
       <mu-text-field hintText="Please enter the test text" multiLine :rows="6" :rowsMax="10" fullWidth v-model="inputValue" />
       <mu-card-actions>
         <mu-raised-button label="OK" @click="send()" primary/>
