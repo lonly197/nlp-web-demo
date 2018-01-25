@@ -2,7 +2,7 @@
   <div class="layout">
     <div class="header">
       <div class="logo">
-        NLP API
+        NLP DEMO
       </div>
       <div class="nav">
         <mu-tabs :value="activeTab" @change="handleTabChange" class="tab">
@@ -31,7 +31,7 @@
       </div>
     </div>
     <div class="footer">
-      NLP API VS ©2018 Created by Lonly
+      NLP DEMO ©2018 Created by Lonly
     </div>
 
   </div>
